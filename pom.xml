@@ -21,7 +21,7 @@
     <modules>
         <module>owner</module>
         <module>owner-site</module>
-        <module>owner-zookeeper</module>
+        <module>owner-loaders</module>
     </modules>
 
     <inceptionYear>2012</inceptionYear>
@@ -143,17 +143,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>org.apache.curator</groupId>
-                <artifactId>curator-framework</artifactId>
-                <version>2.6.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.curator</groupId>
-                <artifactId>curator-test</artifactId>
-                <version>2.6.0</version>
-                <scope>test</scope>
-            </dependency>
             <dependency>
                 <groupId>org.hamcrest</groupId>
                 <artifactId>hamcrest-all</artifactId>
